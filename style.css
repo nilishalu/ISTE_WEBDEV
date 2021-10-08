@@ -5,7 +5,9 @@
 label{
   font-family: 'Libre Franklin', sans-serif;
 }
-
+body {
+  background-color: rgb(221, 209, 194);
+}
 header {
   text-align: center;
   margin: 10px;
@@ -19,6 +21,7 @@ input[type = "text"] {
   margin: 10px 5px;
   border: 1px solid;
   border-radius: 4px;
+  background-color: rgb(235, 232, 228);
 }
 input[type = "number"] {
   width: 90%;
@@ -26,6 +29,7 @@ input[type = "number"] {
   margin: 10px 5px;
   border: 1px solid;
   border-radius: 4px;
+  background-color: rgb(235, 232, 228);
 }
 input[type = "email"] {
   width: 90%;
@@ -33,6 +37,7 @@ input[type = "email"] {
   margin: 10px 5px;
   border: 1px solid;
   border-radius: 4px;
+  background-color: rgb(235, 232, 228);
 }
 input[type = "date"] {
   width: 90%;
@@ -40,6 +45,7 @@ input[type = "date"] {
   margin: 10px 5px;
   border: 1px solid;
   border-radius: 4px;
+  background-color: rgb(235, 232, 228);
 }
 input[type = "submit"] {
   width: 10%;
