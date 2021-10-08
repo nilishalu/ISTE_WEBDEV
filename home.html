@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SignUp form</title>
@@ -17,7 +17,7 @@
 
     <script>
       function validateForm() {
-        var x = document.Registerform.firstname.value;
+        var x = document.myForm.fname;
         if (x == "" || x == null) {
           alert("Fill out the First Name");
           return false;
@@ -27,12 +27,13 @@
   </head>
   <header>Header</header>
   <body>
-    <form id="leftHalf" name = "Registerform" onsubmit="return validateForm()" method="post">
-      <h2>Come Join Us!</h2>
+    <form id="leftHalf" name="myForm" onsubmit= "return validateForm();" method="post" >
+      <h2>Want to know about personal finance? <br><br>
+          Come Join Us and lets learn together!!</h2>
       <label class="label">
         First Name
         <br />
-        <input type="text" name="firstname" placeholder="First Name" />
+        <input type="text" name="fname" placeholder="First Name" />
       </label>
       <br />
       <label>
@@ -81,3 +82,4 @@
   </body>
   <footer>Footer</footer>
 </html>
+
