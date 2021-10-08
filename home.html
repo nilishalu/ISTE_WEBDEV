@@ -15,25 +15,16 @@
     />
     <link rel="stylesheet" href="style.css" />
 
-    <script>
-      function validateForm() {
-        var x = document.myForm.fname;
-        if (x == "" || x == null) {
-          alert("Fill out the First Name");
-          return false;
-        }
-      }
-    </script>
   </head>
   <header>Header</header>
   <body>
-    <form id="leftHalf" name="myForm" onsubmit= "return validateForm();" method="post" >
+    <form id="leftHalf" name="registrationForm">
       <h2>Want to know about personal finance? <br><br>
           Come Join Us and lets learn together!!</h2>
       <label class="label">
         First Name
         <br />
-        <input type="text" name="fname" placeholder="First Name" />
+        <input type="text" name="fname" placeholder="First Name" required/>
       </label>
       <br />
       <label>
