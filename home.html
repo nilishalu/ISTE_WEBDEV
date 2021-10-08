@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Hind:wght@300&family=Libre+Franklin&family=Roboto+Slab:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <script>
+      function validateForm() {
+        var x = document.Registerform.firstname.value;
+        if (x == "" || x == null) {
+          alert("Fill out the First Name");
+          return false;
+        }
+      }
+    </script>
+  </head>
+  <header>Header</header>
+  <body>
+    <form id="leftHalf" name = "Registerform" onsubmit="return validateForm()" method="post">
+      <h2>Come Join Us!</h2>
+      <label class="label">
+        First Name
+        <br />
+        <input type="text" name="firstname" placeholder="First Name" />
+      </label>
+      <br />
+      <label>
+        Last Name
+        <br />
+        <input type="text" name="lastname" placeholder="Last Name" required />
+      </label>
+      <br />
+      <label>
+        Date of birth
+        <br />
+        <input
+          type="date"
+          name="dateofbirth"
+          placeholder="DD-MM-YYYY"
+          required
+        />
+      </label>
+      <br />
+      <label>
+        Email
+        <br />
+        <input
+          type="email"
+          name="email"
+          placeholder="username@gmail.com"
+          required
+        />
+      </label>
+      <br />
+      <label>
+        Contact Number
+        <br />
+        <input
+          type="number"
+          name="phoneNo"
+          placeholder="Enter your contact No."
+          required
+        />
+      </label>
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <img src="personalFinance.jpg" id="rightHalf" />
+  </body>
+  <footer>Footer</footer>
+</html>
