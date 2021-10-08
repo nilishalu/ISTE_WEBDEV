@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+  }
+
+label{
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+header {
+  text-align: center;
+  margin: 10px;
+  font-size: large;
+  font-family:cursive;
+}
+
+input[type = "text"] {
+  width: 90%;
+  padding: 12px 12px;
+  margin: 10px 5px;
+  border: 1px solid;
+  border-radius: 4px;
+}
+input[type = "number"] {
+  width: 90%;
+  padding: 12px 12px;
+  margin: 10px 5px;
+  border: 1px solid;
+  border-radius: 4px;
+}
+input[type = "email"] {
+  width: 90%;
+  padding: 12px 12px;
+  margin: 10px 5px;
+  border: 1px solid;
+  border-radius: 4px;
+}
+input[type = "date"] {
+  width: 90%;
+  padding: 12px 12px;
+  margin: 10px 5px;
+  border: 1px solid;
+  border-radius: 4px;
+}
+input[type = "submit"] {
+  width: 10%;
+  padding: 12px 12px;
+  margin: 10px 5px;
+  border: 1px solid;
+  border-radius: 4px;
+  background-color: black;
+  background-image: linear-gradient(to bottom right, black, grey);
+  color: white;
+}
+input {
+  font-family: 'EB Garamond', serif;
+font-family: 'Hind', sans-serif;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+
+#leftHalf {
+  width: 50%;
+   position: absolute;
+   left: 0px;
+   height: 100%;
+   padding: 20px;
+}
+
+#rightHalf {
+   width: 50%;
+   position: absolute;
+   right: 0px;
+   height: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  text-align: center;
+  margin: 10px;
+  font-size: large;
+  font-family:cursive;
+  position: fixed;
+  bottom: 0px;
+}
